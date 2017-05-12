@@ -1,0 +1,56 @@
+/*
+TODO: Proposal to remove
+	Find out what this is and why is it there - for the life of me,
+	I cannot determine its purpose.
+*/
+/*.container {
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	background-color: rgba(52, 73, 94, 0.7);
+	border-radius: 4px;
+	margin: 0 auto;
+	margin-top: 150px;
+}*/
+
+input {
+	border:0;
+	color:#0D0D0D;
+	font-size: 18px;
+	padding:.2em .4em;
+}
+
+input[type="text"],
+input[type="password"] {
+	height: 45px;
+	width: 300px;
+}
+
+/*.btn-login {
+	padding: 15px 25px;
+	color: #FFF;
+	background-color: aquamarine;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 4px, solid;
+	font-size: 18px;
+
+}*/
+
+/*.btn-register {
+	padding: 15px 25px;
+	color: #fff;
+	background-color: aquamarine;
+	border: none;
+	border-radius: 4px;
+	border-bottom: 4px, solid;
+	font-size: 18px;
+}*/
+
+.thumbnail-author {
+	border:0;
+}
+
+.thumbnail-author img {
+	filter:grayscale(100%);
+}
