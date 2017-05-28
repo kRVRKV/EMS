@@ -60,7 +60,7 @@
             <ul>
                 <button id='button'>Projects</button>
 				<div id="reveal">
-    			<button id='button'>New Project</button>
+    			<button id='button' onclick="document.getElementById('pop').style.display='block';" >New Project</button>
 					<!-- Hide another div with a button here is impossible.
 					It reveals both of them after you press the 1st one. -->
 				</div>
@@ -70,7 +70,10 @@
         </div>
         
     
-       
+<!-- popup window https://www.youtube.com/watch?v=CyQYgmjY3Lo -->       
+<div id="pop">
+<button id="close" onclick="document.getElementById('pop').style.display='none'">X</button><br>
+    
 
 				<script src="../platform/script.js" type="text/javascript"></script>
 
