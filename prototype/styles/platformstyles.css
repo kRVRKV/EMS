@@ -3,3 +3,21 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+#pop{
+height:680px;
+ width:470px;
+ position:fixed;
+ bottom:5%;
+ right:40%;
+ border:2px solid;
+ padding:10px;
+ background:#fff;
+ border-radius:9px;
+ display:none;
+}
+#close{
+right:5;
+top: 5;
+float: right;
+}    

@@ -5,7 +5,7 @@ background: url('http://www.designbolts.com/wp-content/uploads/2013/02/Texture-T
 }
 
 .container {
-	padding: 200px;
+	padding: 10px;
 	text-align: center;
 }
 
@@ -116,4 +116,10 @@ the other one with 6 steps and 6 digits*/
 	0% {top: 0;}
 	100% {top: -240px;} 
 	/*height = 40. digits = 6. hence -240 to move it completely to the top*/
+}
+
+.left, .right{
+    width: 250px;
+    float:left;
+
 }

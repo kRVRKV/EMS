@@ -60,7 +60,7 @@
             <ul>
                 <button id='button'>Projects</button>
 				<div id="reveal">
-    			<button id='button'>New Project</button>
+    			<button id='button' onclick="document.getElementById('pop').style.display='block';" >New Project</button>
 					<!-- Hide another div with a button here is impossible.
 					It reveals both of them after you press the 1st one. -->
 				</div>
@@ -70,9 +70,43 @@
         </div>
         
     
-       
+<!-- popup window https://www.youtube.com/watch?v=CyQYgmjY3Lo -->       
+<div id="pop">
+<button id="close" onclick="document.getElementById('pop').style.display='none'">X</button><br>
+    <form action="">
+<h2>Details:</h2>
+  Project name:<br>
+  <input type="text" name="project name" placeholder="Funnianimals.com">
+  <br>
+Session name:<br>
+<input type="text" name="session name" placeholder="Session 01">
+<br>
+<h4>User information:</h4>
+Participant number: <br>
+<input type="text" name="user name" placeholder="01">
+<br>
+Computer skills: <br>
+<input type="radio" name="skilllevel_b" checked> Basic<br>
+<input type="radio" name="skilllevel_a"> Advanced<br>
+Age: <br>
+<input type="text" name="age" placeholder="25">
+<br>
+<h4>Interface:</h4>
+<input type="checkbox" name="mouse" checked> Mouse<br>
+<input type="checkbox" name="mouse"> Keyboard<br>
+<input type="checkbox" name="mouse" checked> Touch<br>
+<br>
+<h4>Periferals:</h4>
+<input type="checkbox" name="mouse" checked> Eyetracker<br>
+<input type="checkbox" name="mouse"> Pulse<br>
+<input type="checkbox" name="mouse"> Sensor<br>
+<br>
+<input type="submit" value="Return">
+  <input type="submit" value="Run">
+</form>
 
 				<script src="../platform/script.js" type="text/javascript"></script>
+   
 
 	</main>
 	<!-- /Page content -->
