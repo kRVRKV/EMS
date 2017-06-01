@@ -3,6 +3,7 @@ ul {
     margin: 0;
     padding: 0;
 }
+<<<<<<< HEAD
 
 #pop{
 height:680px;
@@ -21,3 +22,36 @@ right:5;
 top: 5;
 float: right;
 }    
+=======
+.vertical-menu {
+    width: 200px;
+}
+ 
+.vertical-menu button {
+    background-color: #eee;
+    border:0;
+	color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+}
+ 
+.vertical-menu button:hover {
+    background-color: #ccc;
+}
+ 
+.vertical-menu button.active {
+    background-color: #4CAF50;
+    color: white;
+}
+ 
+.homeSubMenu {
+    margin-left:20px;
+}
+.notHomeSubMenu {
+    margin-left: 40px;
+}
+.furtherSubMenu {
+    margin-left: 40px;
+}
+>>>>>>> master
