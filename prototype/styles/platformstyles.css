@@ -6,7 +6,7 @@ ul {
 .vertical-menu {
     width: 200px;
 }
- 
+
 .vertical-menu button {
     background-color: #eee;
     border:0;
@@ -15,16 +15,16 @@ ul {
     padding: 12px;
     text-decoration: none;
 }
- 
+
 .vertical-menu button:hover {
     background-color: #ccc;
 }
- 
-.vertical-menu button.active {
-    background-color: #4CAF50;
-    color: white;
+
+.vertical-menu button.inactive {
+    background-color: #eee;
+    color: #808080;
 }
- 
+
 .homeSubMenu {
     margin-left:20px;
 }
