@@ -12,9 +12,9 @@ document.addEventListener('click', function(e) {
                     $(hiddenDiv).hide();
                 }
                 break;
-            case 'New Project':
-                alert('I have made you a new project!');
-                break;
+            //case 'New Project':
+            //    alert('I have made you a new project!');
+            //    break;
             case 'Home':
                 var homeSubMenu = document.querySelector('.homeSubMenu');
                 if (homeSubMenu.style.display === 'none') {
