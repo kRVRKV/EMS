@@ -9,13 +9,51 @@
 -->
 <html lang="en">
 <head>
-<link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" type="image/png" href="../favicon.png"/>
+	<title>EMS</title>
+	<!-- Bootstrap -->
+	<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="../bower_components/Lato/lato.css" rel="stylesheet" type="text/css">
+	<!-- Custom styles -->
+	<link href="../styles/styles.css" rel="stylesheet">
+	<link href="../styles/landing-page.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+</head>
+<body>
+	<!-- Navigation -->
+	<nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
+		<div class="container topnav">
 
-    </head>    
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand topnav" href="/">Home</a>
+			</div>
+
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+				<ul class="nav navbar-nav navbar-right">
+                    <a class="navbar-brand topnav" href="/">Hello, John Doe (TW)</a>
+					<!-- <li>
+						<a href="#link">Link title</a>
+					</li> -->
+				</ul>
+			</div>
+
+		</div>
+	</nav>
 
 	<!-- Page content -->
-<main>
-        <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+	<main>
+		<link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
 		<link href="../dashboard/dashboard.css" rel="stylesheet">
         
         <!-- Stopwatch source: http://thecodeplayer.com/walkthrough/make-a-stopwatch-using-css3-without-images-or-javascript -->
@@ -29,27 +67,13 @@ wrap up the 'numbers' in a cell to display only 1 digit-->
 
 <!-- We will replicate the digits now -->
 <div class="container">
-    <div>
-     <form action="/" id="name">
-  Project name: <input type="text" name="projectname">
-  Session name: <input type="text" name="sessionname">
-    </form>
-    </div>
+    <div id="left">
+    
     <br>
     <!-- peripherals list -->  
     	<div id="timer_controls">
             
             </div>
-    
-            <ul class="list-group">
-                <li class="list-group-item list-group-item-success"><label for="Mouse"><input id="Mouse" type="checkbox">Mouse </label></li>
-                <li class="list-group-item list-group-item-success"><label for="Mouse"><input id="Mouse" type="checkbox">Keyboard </label></li>
-                <li class="list-group-item list-group-item-warning"><label for="Mouse"><input id="Mouse" type="checkbox">Touch </label></li>
-                <li class="list-group-item list-group-item-danger"><label for="Mouse"><input id="Mouse" type="checkbox">Eyecam </label></li>
-                <li class="list-group-item list-group-item-success"><label for="Mouse"><input id="Mouse" type="checkbox">Pulse </label></li>
-                <li class="list-group-item list-group-item-warning"><label for="Mouse"><input id="Mouse" type="checkbox">Sensor </label></li>
-            </ul>
-	
     
 <input id="record" name="controls" type="radio" /> 
 	<input id="pause" name="controls" type="radio" />
@@ -109,10 +133,39 @@ wrap up the 'numbers' in a cell to display only 1 digit-->
         </label>
     </div>
 </div>
+    <div class="information">
+ <form action="">
+  <input type="radio" name="gender" checked value="mouse"> Mouse<br>
+  <input type="radio" name="gender" value="keyboard"> Keyboard<br>
+  <input type="radio" name="gender" value="touch"> Touch <br>
+<input type="radio" name="gender" value="eyetracker"> Eyetracker<br>
+  <input type="radio" name="gender" value="pulse"> Pulse<br>
+  <input type="radio" name="gender" value="sensor"> Sensor<br>
+</form> 
+</div>
+<div id="right">
+</div>
     
-
+   
+    
+</div>
   
 
 </div>
-
 	</main>
+	<!-- /Page content -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="copyright text-muted small">Copyright &copy; EMS 2017. All Rights Reserved</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	
+	
+	</body>
+	</html>
