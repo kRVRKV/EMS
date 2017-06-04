@@ -34,3 +34,7 @@ ul {
 .furtherSubMenu {
     margin-left: 40px;
 }
+
+input[type=text] {
+    border-radius: 4px;
+}
