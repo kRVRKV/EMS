@@ -56,60 +56,62 @@
                        <button>New Project</button>
                        <div class="newProjSubMenu" style="display: none;">
 
-                              
-                           <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Launch demo modal</button>
-                           <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
-                             <div class="modal-dialog" role="document">
-                               <div class="modal-content">
-                                 <div class="modal-header">
-                                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                                   <h4 class="modal-title">Details:</h4>
-                                 </div>
-                                 <div class="modal-body">
-                                   <section class="preset" style="display: none;">
-                                       <h2>Presets!</h2>
-                                   </section>
-                                   <section class="settings" style="display: none;">
-                                       <h2>Settings!</h2>
-                                   </section>
-                                    <form action="">
-  Project name:<br>
-  <input type="text" name="project name" placeholder="Funnianimals.com">
-  <br>
-Session name:<br>
-<input type="text" name="session name" placeholder="Session 01">
-<br>
-<h4>User information:</h4>
-Participant number: <br>
-<input type="text" name="user name" placeholder="01">
-<br>
-Computer skills: <br>
-<input type="radio" name="skilllevel_b" checked> Basic<br>
-<input type="radio" name="skilllevel_a"> Advanced<br>
-Age: <br>
-<input type="text" name="age" placeholder="25">
-<br>
-<h4>Interface:</h4>
-<input type="checkbox" name="mouse" checked> Mouse<br>
-<input type="checkbox" name="mouse"> Keyboard<br>
-<input type="checkbox" name="mouse" checked> Touch<br>
-<br>
-<h4>Periferals:</h4>
-<input type="checkbox" name="mouse" checked> Eyetracker<br>
-<input type="checkbox" name="mouse"> Pulse<br>
-<input type="checkbox" name="mouse"> Sensor<br>
-<br> 
-</form>
-                                 </div>
-                                 <div class="modal-footer">
-                                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                                   <button type="button" class="btn btn-primary">Run</button>
-                                 </div>
-                               </div> 
-                             </div> 
-                           </div> 
-                              <button>Start a new session</button>
+
+
+                              <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Start a new session</button>
                               <div class="startNewSeshSubMenu" style="display: none;">
+
+  <div id="myModal" class="modal fade" tabindex="-1" role="dialog">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title">Details:</h4>
+        </div>
+        <div class="modal-body">
+          <section class="preset" style="display: none;">
+              <h2>Presets!</h2>
+          </section>
+          <section class="settings" style="display: none;">
+     <h2>Settings!</h2>
+     </section>
+     <form action="">
+     Project name:<br>
+     <input type="text" name="project name" placeholder="Funnianimals.com">
+     <br>
+     Session name:<br>
+     <input type="text" name="session name" placeholder="Session 01">
+     <br>
+     <h4>User information:</h4>
+     Participant number: <br>
+     <input type="text" name="user name" placeholder="01">
+     <br>
+     Computer skills: <br>
+     <input type="radio" name="skilllevel_b" checked> Basic<br>
+     <input type="radio" name="skilllevel_a"> Advanced<br>
+     Age: <br>
+     <input type="text" name="age" placeholder="25">
+     <br>
+     <h4>Interface:</h4>
+     <input type="checkbox" name="mouse" checked> Mouse<br>
+     <input type="checkbox" name="mouse"> Keyboard<br>
+     <input type="checkbox" name="mouse" checked> Touch<br>
+     <br>
+     <h4>Periferals:</h4>
+     <input type="checkbox" name="mouse" checked> Eyetracker<br>
+     <input type="checkbox" name="mouse"> Pulse<br>
+     <input type="checkbox" name="mouse"> Sensor<br>
+     <br>
+     </form>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        <a type="button" class="btn btn-primary" href="/dashboard/index.html">Run</a>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+
                               </div>
                               <button class="inactive">Review existing session</button>
                               <div class="reviewExistSeshSubMenu" style="display: none;">
