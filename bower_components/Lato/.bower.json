@@ -1,0 +1,14 @@
+{
+  "name": "Lato",
+  "main": [
+    "*.ttf",
+    "*.css"
+  ],
+  "_cacheHeaders": {
+    "Content-Type": "application/octet-stream",
+    "Content-Disposition": "attachment; filename=lato.zip"
+  },
+  "_source": "https://google-fonts.azurewebsites.net/googleFonts/Lato?family=Lato:300,400,700,300italic,400italic,700italic",
+  "_target": "*",
+  "_originalSource": "https://google-fonts.azurewebsites.net/googleFonts/Lato?family=Lato:300,400,700,300italic,400italic,700italic"
+}
