@@ -6,7 +6,6 @@ background: url('http://www.designbolts.com/wp-content/uploads/2013/02/Texture-T
 
 .container {
 	text-align: center;
-    
     height: inherit;
     
 }
@@ -15,15 +14,14 @@ background: url('http://www.designbolts.com/wp-content/uploads/2013/02/Texture-T
 }
 
 #right {
- width: 250px; //change this to whatever required
+ width: 150px; //change this to whatever required
  float: right;
-    
+  
     
 }
 
 #left {
  width: 250px; //change this to whatever required
- float: left;
     border: 7px solid #efefef;
     background-color: #efefef;
 }
