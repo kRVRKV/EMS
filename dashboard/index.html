@@ -23,6 +23,7 @@
 	<link href="../styles/styles.css" rel="stylesheet">
 	<link href="../styles/landing-page.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
+    
 </head>
 <body>
 	<!-- Navigation -->
@@ -132,6 +133,37 @@ wrap up the 'numbers' in a cell to display only 1 digit-->
          <label for="stop">&nbsp;&nbsp;&nbsp;&nbsp;STOP</label>
         </label>
     </div>
+    
+
+         <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  Create report
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Report</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>The session was successfully finished and a report was created! You can now see the report in different forms.</p>
+          <button type="button" class="btn btn-secondary">Text-based</button><br><br>
+          <button type="button" class="btn btn-secondary">Graph</button><br><br>
+          <button type="button" class="btn btn-secondary">Mixed</button>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+      
 </div>
     <div class="information">
  <form action="">
@@ -165,7 +197,10 @@ wrap up the 'numbers' in a cell to display only 1 digit-->
 		</div>
 	</footer>
 
-	
-	
+	<!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+	<!-- Bootstrap JS -->
+    <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 	</body>
+    
 	</html>
