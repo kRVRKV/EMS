@@ -86,7 +86,7 @@ Please be vary of existing design patterns and always reference to [Chrome Exten
 ### Member's contribution
 * Sergei: Main page, Dashboard, Chrome Store page, Video, Marketing campaign, User Research Coordination;
 * Erik: Main page, Login page, Chrome Store page, Platform page, Video, Prototype;
-* Vanessa: Main page, Login page, Password Reset page, Contact page, Platform page;
+* Vanessa: landing page (with, about etc sections) using a template, login page, password reset page, details popup, dashboard page (except counter/stopper), report creating page
 
 ### Author's contribution
 * Creating a user-friendly development platform for the prototype (tutorial found above)
