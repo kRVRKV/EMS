@@ -26,9 +26,6 @@ For the platform: [Boostrap (visuals)](http://getbootstrap.com/), [jQuery (funct
 ## 3. Target platforms
 First incarnation of our project will run on Chrome web browser and Mac/Linux/Windows platform for the server.
 
-### Guide to usage
-Refer to project's "Wiki" pages.
-
 ## 4. Guide for installing
 >Reference to any advances [here](https://github.com/ristokitsing).
 
@@ -81,16 +78,30 @@ In case of a critical error, you have to restart *Nodemon* by typing `rs` into t
 
 Please be vary of existing design patterns and always reference to [Chrome Extension API](https://developer.chrome.com/extensions/browserAction).
 
+### Guide to usage
+1. Go to https://krvrkv.github.io/EMS/
+>this is the landing page of our platform, where you can ented as a specialist or download the extension as a test subject
+2. Press "Sign up/Sign in"
+>to take a main route of a specialist
+3. Sign up/Sign in again (login window)
+>to enter the system
+4. Project -> New project -> Start a new session
+5. "Run" in the popup window
+6. Record -> Stop -> Create report
+7. Choose type of the report for the output 
+
 ## 6. Credits
 
 ### Member's contribution
-* Sergei: Main page, Dashboard, Chrome Store page, Video, Marketing campaign, User Research Coordination;
-* Erik: Main page, Login page, Chrome Store page, Platform page, Video, Prototype;
-* Vanessa: landing page (with, about etc sections) using a template, login page, password reset page, details popup, dashboard page (except counter/stopper), report creating page
+* Sergei: Landing page (intro & about sections), Dashboard (inital prototype and then help with its implementation into the dashboard page), Chrome Store page (w/ Erik), Dashboard Page (collaborative execution with Vanessa), Video (directing the animation), Marketing campaign (for startup events) & User Research Coordination (for testing the prototype);
+* Erik: Landing page (video & about sections), Login page (w/ Vanessa), Chrome Store page (w/ Sergei), Platform page (whole menu besides "Start new session" - it was done by Vanessa), Dashboard and report generation pages (help and guidance for Vanessa), Video animation (that was used on the landing page) & the Adobe Xd prototype (that was used as a mockup to create the platform);
+* Vanessa: Landing page (with, about etc sections) using a template, Login page (w/ Erik), Password reset page, Start new session popup, Contact us page, Dashboard page (except counter/stopper - it was done by Sergei), Report creating page.
+
+>As it was mentioned before, we've got a new github repository because Risto, for his personal reasons, has sent me all the files and has deleted our initial repository from his account, thus every previous commit data got lost and the only one that is present is in the new repository. You might also notice that in the new repository there are no commits from Sergei. He has done his part by helping me and Vanessa when we were gathering to do the group work because he was specialising in certain aspects that he has worked on before in our previous repository (e.g. dashboard). He was consulting and taking hold of our computers to perform some coding because re-logging into his own account and perform all the syncs would've been too much time-consuming (as well as he had no access to his personal computer).
 
 ### Author's contribution
 * Creating a user-friendly development platform for the prototype (tutorial found above)
-* Building browser extension based on Chrome/Web Extensions API (user tracking algorithms)
+* Building browser extension based on Chrome/Web Extensions API (user tracking algorithms)ss
 * Building a NodeJS server (REST API)
 * Establishing data connections between browser extension and server via database (data traffic)
 * Data calculations (algorithms)
